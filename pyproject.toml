@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "gstk"
+version = "0.1.0"
+description = "A Geospatial Toolkit to standardise, slice, and dice all kinds of geospatial data."
+authors = ["Sneha S <sneha@artpark.in>"]
+license = "AGPL-3.0-or-later"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+ipython = "^8.30.0"
+setuptools = "^75.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
